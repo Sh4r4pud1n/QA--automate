@@ -1,14 +1,5 @@
 package com.company;
-
-public class Main {
-    public static void main (String[] args) {
-        String a = "Hello World";
-        System.out.print(a);
-
-    }
-}
-
-
+import java.lang.String;
 
 public class Main {
     public static void main (String[] args) {
@@ -32,4 +23,3 @@ public class Main {
         System.out.println(title);
     }
 }
-
