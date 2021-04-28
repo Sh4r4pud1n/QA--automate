@@ -1,3 +1,4 @@
+//1. Write a simple Java program using any text editor. Compile this program using Java compiler and run it from the console. You can write whatever you want, but program should compile and should print something to a console.
 package com.company;
 
 public class main {
@@ -7,3 +8,49 @@ public class main {
 
     }
 }
+
+// 2. Write a program which creates and initializes all primitive data types. Remark: There are 8 primitive data types.
+
+package com.company;
+import java.lang.String;
+
+public class Main {
+    public static void main (String[] args) {
+        byte a = 123;
+        System.out.println(a);
+        short b = 4;
+        System.out.println(b);
+        int c = 567;
+        System.out.println(c);
+        long x = 1345243;
+        System.out.println(x);
+        float z = 1.23f;
+        System.out.println(z);
+        double y = 1.342536474d;
+        System.out.println(y);
+        boolean AllRight = true;
+        System.out.println(AllRight);
+        char k = 'K';
+        System.out.println(k);
+        String title = "Hello World!";
+        System.out.println(title);
+    }
+}
+// 3. Create an integer variable "a". Try to assign a value to it the doesn't match the allowed range. What happened? Find in your favorite search engine the explanation.
+
+  
+package com.company;
+import java.lang.String;
+
+public class Main {
+    public static void main (String[] args) {
+
+        int a = 21474836478;
+        System.out.println(a);
+
+    }
+}
+
+// 4. Answer the question: What the difference between integers and floating-point numbers?
+// Floating-point numbers can present fractionals and integers numbers, but intergers - only integers
+// 5. Read about ASCII. Write Unicode for all characters in a word "Hello".
