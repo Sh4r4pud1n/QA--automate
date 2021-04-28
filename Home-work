@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+    public static void main (String[] args) {
+        Scanner num = new Scanner(System.in);
+        float first, second, third;
+        System.out.print("Enter first num: ");
+        first = num.nextFloat();
+        System.out.print("Enter second num: ");
+        second = num.nextFloat();
+        third = first/second;
+        System.out.print(third);
+
+    }
+}
