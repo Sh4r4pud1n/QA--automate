@@ -1,0 +1,30 @@
+// 3. Create an integer variable "a". Try to assign a value to it the doesn't match the allowed range. What happened? ( it will give error - "integer number too large" )
+// Find in your favorite search engine the explanation - because it has limit 
+
+  
+package com.company;
+import java.lang.String;
+
+public class Main {
+    public static void main (String[] args) {package com.company;
+import java.lang.String;
+
+public class Main {
+    public static void main (String[] args) {
+
+        final char a = '6';//
+        final char b = '9';
+        System.out.println(a);
+        System.out.println(b);
+        a = '7';
+        System.out.println(a);
+    }
+}
+// Create an array of 10 integers. Initialize this array with any values except 0. Print the length of the array to a console.
+
+
+        int a = 21474836478;
+        System.out.println(a);
+
+    }
+}

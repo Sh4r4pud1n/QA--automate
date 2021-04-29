@@ -1,0 +1,18 @@
+// 8. Create an array of 5 doubles. Get the first and the last element of the array and write them to variables.
+
+package com.company;
+import java.util.Arrays;
+
+public class Main {
+    public static void main (String[] args) {
+          double[] a = new double[5];
+          for(int i = 0; i < 5; i++) {
+            a[i] = (i+4) /0.65747;
+        }
+         double b = a[1];
+         double c = a[4];
+        System.out.println(b);
+        System.out.println(c);
+
+    }
+}

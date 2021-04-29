@@ -1,0 +1,16 @@
+// 7. Create an array of 10 integers. Initialize this array with any values except 0. Print the length of the array to a console.
+
+package com.company;
+import java.util.Arrays;
+
+public class Main {
+    public static void main (String[] args) {
+          int[] a = new int[10];
+          for(int i = 0; i < 10; i++) {
+            a[i] = (i+1)*3;
+        }
+        System.out.println(Arrays.toString(a));
+         int b = a.length;
+        System.out.println(b);
+    }
+}

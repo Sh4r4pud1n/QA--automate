@@ -1,0 +1,16 @@
+// 6. Create a simple program with several constants. Try to reassign a value for any of them and compile you program. What happened?
+
+package com.company;
+import java.lang.String;
+
+public class Main {
+    public static void main (String[] args) {
+
+        final char a = '6';
+        final char b = '9';
+        System.out.println(a);
+        System.out.println(b);
+        a = '7';
+        System.out.println(a);
+    }
+}
